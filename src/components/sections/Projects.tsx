@@ -1,5 +1,8 @@
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
+import weatherAppImage from '../../assets/weather_app.jpg';
+import wFinanceImage from '../../assets/w-finance.png';
+import quizlarkImage from '../../assets/quizlark_image.png';
 
 
 interface ProjectItem {
@@ -16,7 +19,7 @@ const Projects: React.FC = () => {
     {
       title: "Weather App",
       description: "A responsive web application that displays real-time weather data for searched locations. It fetches live information such as temperature and weather conditions from a public API and updates the interface dynamically. Built with modern frontend tools, the app focuses on usability, responsiveness, and clean UI design.",
-      image: "/src/assets/weather_app.jpg",
+      image: weatherAppImage,
       technologies: ["React", "Next.js", "TypeScript", "Open-meteo API", "PostgreSQL", "Tailwindcss", "Figma", "Git"],
       liveUrl: "https://weather-app-v1-phi.vercel.app/",
       githubUrl: "https://github.com/dude243485/weatherApp"
@@ -24,7 +27,7 @@ const Projects: React.FC = () => {
     {
       title: "W-Finance",
       description: "A web-based expense tracker built with Next.js that allows users to record, categorize, and monitor their expenses. The application focuses on a clean interface, responsive design, and efficient state management to provide a simple and intuitive budgeting experience.",
-      image: "/src/assets/w-finance.png",
+      image: wFinanceImage,
       technologies: ["React", "Node.js", "Firebase", "Firestore", "Node", "Tailwindcss", "Git", "Zustand", "Vercel"],
       liveUrl: "https://w-finance.vercel.app/",
       githubUrl: "https://github.com/wonuola-y/w-finance"
@@ -32,7 +35,7 @@ const Projects: React.FC = () => {
     {
       title: "Quizlark",
       description: "A desktop quiz application built with Python and CustomTkinter, allowing users to take quizzes and track their performance. It uses OOP principles for structure, Excel for data storage, and Matplotlib to visualize scores and statistics.",
-      image: "/src/assets/quizlark_image.png",
+      image: quizlarkImage,
       technologies: ["Python", "CustomTkinter", "Excel", "Matplotlib", "OOP", "Git"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/dude243485/QuizLark_2.0"

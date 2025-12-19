@@ -6,7 +6,7 @@ const About: React.FC = () => {
   return (
     <section id="about" className="min-h-screen bg-gray-50 p-4">
       <div className='text-center my-10'>
-          <h1 className='bg-gray-300 rounded-full px-4 py-2 text-lg font-medium text-gray-700 dark:text-gray-300 inline-block md:my-4'>About Me</h1>
+          <h1 className='bg-gray-300 rounded-full px-4 py-2 text-lg font-medium text-gray-700 inline-block md:my-4'>About Me</h1>
       </div>
       <div className='flex items-center justify-center px-7 flex-col md:flex-row relative gap-8 md:items-start '>
         {/*Image Container*/}

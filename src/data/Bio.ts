@@ -1,0 +1,7 @@
+const extendedBio = `I am a Computer Science student at the University of Ibadan with a strong interest in problem-solving, software development, and understanding how technology can be used to create practical solutions. My academic journey has exposed me to core computing concepts such as algorithms, data structures, logic, and discrete mathematics, which have shaped the way I approach challenges methodically, logically, and with curiosity. Beyond the classroom, I enjoy building small projects and continuously improving my technical skills through hands-on practice.
+
+ My background is rooted in a consistent drive to learn and adapt. Through academic projects and personal exploration, I have gained exposure to real-world problem-solving, collaboration, and the importance of writing clean, maintainable solutions. These experiences have helped me appreciate the value of teamwork, communication, and continuous learning in the tech space. I am particularly interested in growing as a developer who not only writes code, but also understands the reasoning and impact behind it.
+What motivates me most is the ability of technology to simplify complex problems and improve everyday life. I am driven by curiosity, a desire for growth, and the satisfaction that comes from seeing an idea evolve into something functional. I strive to keep learning, challenge myself intellectually, and contribute meaningfully to any team or project I am part of, because stagnation is boring, and progress is far more interesting.
+
+`
+export default extendedBio;
